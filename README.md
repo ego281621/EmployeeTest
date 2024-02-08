@@ -1,14 +1,14 @@
 
-# EmployeeAPI
+# EmployeeTest.Api
 
-EmployeeAPI is a RESTful API for managing employee records. It allows you to perform CRUD operations on employee data stored in a relational database.
+EmployeeTest.Api is a RESTful API for managing employee records. It allows you to perform CRUD operations on employee data stored in a relational database.
 
 ## Project Structure
 
 The project follows a standard structure for an ASP.NET Core Web API project with additional components for data access and testing:
-
-EmployeeAPI (Solution)
-├── EmployeeAPI (Project - ASP.NET Core Web API)
+```
+EmployeeTest (Solution)
+├── EmployeeTest.Api (Project - ASP.NET Core Web API)
 │ ├── Controllers
 │ │ └── EmployeesController.cs
 │ ├── Models
@@ -19,14 +19,14 @@ EmployeeAPI (Solution)
 │ ├── Profiles
 │ │ └── EmployeeProfile.cs
 │ └── appsettings.json
-├── EmployeeAPI.Data (Class Library - Data Access)
+├── EmployeeTest.Data (Class Library - Data Access)
 │ ├── Employee.cs
 │ └── EmployeeDbContext.cs
-└── EmployeeAPI.Tests (Test Project)
+└── EmployeeTest.Tests (Test Project)
 └── EmployeesControllerTests.cs
+```
 
 ## Getting Started - Update Database
-
 ```
 -- Create DATABASE in you're local in SQL Server Management Studio
  Database Name: EmployeeDB
@@ -57,4 +57,3 @@ SELECT 'Test Name 3', 'Test Name 3', 'Test Name 3'
 
 ### Running the API
 - You could run it directly by Visual Studio once you run it it has an Swagger
-![image](https://github.com/ego281621/EmployeeTest/assets/20109990/1f606bb9-9d78-4eb9-9f7c-273da14a0531)
